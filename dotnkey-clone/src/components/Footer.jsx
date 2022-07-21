@@ -25,7 +25,7 @@ export default function Footer() {
         textTransform='uppercase'
         justifyContent='space-between'
         maxW='80%'
-        m='auto'
+        m='2% auto'
       >
         <Box>
           <Heading fontSize='18px' fontWeight='500'>

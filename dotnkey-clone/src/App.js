@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Product from './pages/Product';
 function App() {
   return (
-    <div className="App">
+    <div style={{position:"relative"}} className="App">
      <Navbar />
      <Product/>
      <Footer/>

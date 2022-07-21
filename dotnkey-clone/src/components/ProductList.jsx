@@ -62,6 +62,7 @@ export default function ProductList() {
                 <Text color='#ff6781' fontSize='12px'>
                   ₹ {(el.price - el.price * (el.discount / 100)).toFixed(2)}
                 </Text>
+                <Text color='green.400' fontSize='12px'>{el.discount}% OFF</Text>
               </Flex>
               <Button
                 w='100%'
