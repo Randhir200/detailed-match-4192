@@ -16,7 +16,6 @@ import { FaStar, FaRegHeart } from 'react-icons/fa';
 import { AppContext } from '../context/AppContext';
 export default function ProductList() {
   const { productData } = useContext(AppContext);
-  console.log(productData);
   return (
     <Container mb='100px' maxW='90%'>
       <Heading my='20px' textAlign='center'>
@@ -29,7 +28,11 @@ export default function ProductList() {
               <Image src={el.img} />
             </Box>
             <Box m='auto' textAlign='center' maxW='95%'>
-              <Flex alignItems='center' mx='2px' justifyContent='space-between'>
+              <Flex
+                m='2px 2px'
+                alignItems='center'
+                justifyContent='space-between'
+              >
                 <Flex alignItems='center' gap='5px'>
                   <Icon color='yellow.400' fontSize='12px' as={FaStar} />
                   <Text fontSize='12px'>{el.ratings}</Text>
