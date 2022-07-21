@@ -16,7 +16,6 @@ import {
   FaInstagram,
   FaRegCopyright,
 } from 'react-icons/fa';
-const ffm = 'Gilroy Regular';
 
 export default function Footer() {
   return (
