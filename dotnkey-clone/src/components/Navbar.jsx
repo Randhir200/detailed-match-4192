@@ -18,10 +18,11 @@ export default function Navbar() {
     >
       <Box
         bg='#50504b'
-        fontSizes='14px'
+        fontSize='14px'
         w='100%'
         p={0}
         m={0}
+        textAlign='center'
         border='0'
         color='white'
       >

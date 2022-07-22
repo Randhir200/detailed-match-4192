@@ -16,17 +16,16 @@ import {
   FaInstagram,
   FaRegCopyright,
 } from 'react-icons/fa';
-const ffm = 'Gilroy Regular';
 
 export default function Footer() {
   return (
-    <Container m='0' p='0' maxW='100%'>
+    <Container borderTop='1px' borderColor='#9999' m='0' p='0' maxW='100%'>
       <Flex
         gap='10%'
         textTransform='uppercase'
         justifyContent='space-between'
         maxW='80%'
-        m='auto'
+        m='2% auto'
       >
         <Box>
           <Heading fontSize='18px' fontWeight='500'>
