@@ -2,6 +2,7 @@
   "products": [
     {
       "id": 1,
+      "qwt": 1,
       "title": "Stringtough",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
@@ -14,6 +15,7 @@
     },
     {
       "id": 2,
+      "qwt": 1,
       "title": "Duobam",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -26,6 +28,7 @@
     },
     {
       "id": 3,
+      "qwt": 1,
       "title": "Sonsing",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -38,6 +41,7 @@
     },
     {
       "id": 4,
+      "qwt": 1,
       "title": "Regrant",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -50,6 +54,7 @@
     },
     {
       "id": 5,
+      "qwt": 1,
       "title": "Ronstring",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -62,6 +67,7 @@
     },
     {
       "id": 6,
+      "qwt": 1,
       "title": "Tempsoft",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -74,6 +80,7 @@
     },
     {
       "id": 7,
+      "qwt": 1,
       "title": "Domainer",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -86,6 +93,7 @@
     },
     {
       "id": 8,
+      "qwt": 1,
       "title": "Greenlam",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -98,6 +106,7 @@
     },
     {
       "id": 9,
+      "qwt": 1,
       "title": "Holdlamis",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/5fa2dd/ffffff",
@@ -110,6 +119,7 @@
     },
     {
       "id": 10,
+      "qwt": 1,
       "title": "Lotstring",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/5fa2dd/ffffff",
@@ -122,6 +132,7 @@
     },
     {
       "id": 11,
+      "qwt": 1,
       "title": "Home Ing",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
@@ -134,6 +145,7 @@
     },
     {
       "id": 12,
+      "qwt": 1,
       "title": "Y-Solowarm",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -146,6 +158,7 @@
     },
     {
       "id": 13,
+      "qwt": 1,
       "title": "Duobam",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -155,6 +168,138 @@
       "discount": 38,
       "ratings": 2,
       "reviews": 474
+    },
+    {
+      "id": 14,
+      "qwt": 1,
+      "title": "Home Ing",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
+      "benefit": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
+      "price": "840.92",
+      "netwet": 79,
+      "discount": 43,
+      "ratings": 5,
+      "reviews": 186
+    },
+    {
+      "id": 15,
+      "qwt": 1,
+      "title": "Bigtax",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
+      "benefit": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
+      "price": "710.11",
+      "netwet": 164,
+      "discount": 46,
+      "ratings": 4,
+      "reviews": 41
+    },
+    {
+      "id": 16,
+      "qwt": 1,
+      "title": "Lotstring",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/dddddd/000000",
+      "benefit": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+      "price": "526.62",
+      "netwet": 176,
+      "discount": 6,
+      "ratings": 1,
+      "reviews": 403
+    },
+    {
+      "id": 17,
+      "qwt": 1,
+      "title": "Fixflex",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
+      "benefit": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+      "price": "691.38",
+      "netwet": 108,
+      "discount": 19,
+      "ratings": 5,
+      "reviews": 69
+    },
+    {
+      "id": 18,
+      "qwt": 1,
+      "title": "Lotlux",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
+      "benefit": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+      "price": "420.35",
+      "netwet": 112,
+      "discount": 42,
+      "ratings": 5,
+      "reviews": 451
+    },
+    {
+      "id": 19,
+      "qwt": 1,
+      "title": "Andalax",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
+      "benefit": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
+      "price": "169.49",
+      "netwet": 188,
+      "discount": 29,
+      "ratings": 4,
+      "reviews": 440
+    },
+    {
+      "id": 20,
+      "qwt": 1,
+      "title": "Holdlamis",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/dddddd/000000",
+      "benefit": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
+      "price": "656.81",
+      "netwet": 98,
+      "discount": 31,
+      "ratings": 2,
+      "reviews": 160
+    }
+  ],
+  "cart": [
+    {
+      "id": 11,
+      "qwt": 1,
+      "title": "Home Ing",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
+      "benefit": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+      "price": "979.02",
+      "netwet": 179,
+      "discount": 26,
+      "ratings": 2,
+      "reviews": 26
+    },
+    {
+      "id": 12,
+      "qwt": 1,
+      "title": "Y-Solowarm",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/dddddd/000000",
+      "benefit": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+      "price": "908.84",
+      "netwet": 61,
+      "discount": 16,
+      "ratings": 1,
+      "reviews": 95
+    },
+    {
+      "id": 8,
+      "qwt": 1,
+      "title": "Greenlam",
+      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+      "img": "http://dummyimage.com/500x500.png/dddddd/000000",
+      "benefit": "Ut at dolor quis odio consequat varius. Integer ac leo.",
+      "price": "893.42",
+      "netwet": 77,
+      "discount": 34,
+      "ratings": 1,
+      "reviews": 324
     },
     {
       "id": 14,
@@ -169,67 +314,8 @@
       "reviews": 186
     },
     {
-      "id": 15,
-      "title": "Bigtax",
-      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
-      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
-      "benefit": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
-      "price": "710.11",
-      "netwet": 164,
-      "discount": 46,
-      "ratings": 4,
-      "reviews": 41
-    },
-    {
-      "id": 16,
-      "title": "Lotstring",
-      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
-      "img": "http://dummyimage.com/500x500.png/dddddd/000000",
-      "benefit": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-      "price": "526.62",
-      "netwet": 176,
-      "discount": 6,
-      "ratings": 1,
-      "reviews": 403
-    },
-    {
-      "id": 17,
-      "title": "Fixflex",
-      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
-      "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
-      "benefit": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
-      "price": "691.38",
-      "netwet": 108,
-      "discount": 19,
-      "ratings": 5,
-      "reviews": 69
-    },
-    {
-      "id": 18,
-      "title": "Lotlux",
-      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
-      "img": "http://dummyimage.com/500x500.png/cc0000/ffffff",
-      "benefit": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
-      "price": "420.35",
-      "netwet": 112,
-      "discount": 42,
-      "ratings": 5,
-      "reviews": 451
-    },
-    {
-      "id": 19,
-      "title": "Andalax",
-      "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
-      "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
-      "benefit": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
-      "price": "169.49",
-      "netwet": 188,
-      "discount": 29,
-      "ratings": 4,
-      "reviews": 440
-    },
-    {
       "id": 20,
+      "qwt": 1,
       "title": "Holdlamis",
       "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
       "img": "http://dummyimage.com/500x500.png/dddddd/000000",
@@ -240,5 +326,20 @@
       "ratings": 2,
       "reviews": 160
     }
-  ]
+  ],
+  "user": [
+    {
+      "username": "randhir",
+      "password": "12345",
+      "id": 2,
+      "cart": [{"id":1, "name":"prod"}]
+    },
+    {
+      "username": "ansh",
+      "password": "1545",
+      "cart": [],
+      "id": 3
+    }
+  ],
+  "signinData": []
 }
