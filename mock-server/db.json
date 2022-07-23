@@ -264,27 +264,57 @@
   "users": [
     {
       "id": 1,
-      "qwt": 1,
       "username": "randhir",
       "password": "12345",
-      "email": "randhir@gmail.com",
-      "cartId": 1
+      "email": "randhir@gmail.com"
     },
     {
       "id": 2,
-      "qwt": 1,
       "username": "randhir",
       "password": "12345",
-      "email": "randhir@gmail.com",
-      "cartId": 2
+      "email": "randhir@gmail.com"
     },
     {
       "id": 3,
-      "qwt": 1,
       "username": "randhir",
       "password": "12345",
-      "email": "randhir@gmail.com",
-      "cartId": 1
+      "email": "randhir@gmail.com"
+    },
+    {
+      "username": "neha",
+      "email": "neha@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "username": "reha",
+      "email": "reha@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "username": "niraj",
+      "email": "niraj@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "username": "amitesh",
+      "email": "amitesh@gmail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "username": "laxmi",
+      "email": "laxmi@gmail.com",
+      "password": "12345",
+      "id": 9
     }
   ],
   "cart": [

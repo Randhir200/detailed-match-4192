@@ -1,13 +1,27 @@
 import { createContext, useState, useEffect } from 'react';
-import { getCartData, getData, getUsersData,patchCartData,
-  postCartData } from '../api/api';
+import { useNavigate } from 'react-router-dom';
+import {
+  getCartData,
+  getData,
+  getUsersData,
+  patchCartData,
+  postCartData,
+  postUsersData,
+} from '../api/api';
+import {
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+} from '@chakra-ui/react';
 export const AppContext = createContext();
+
 export default function AppContextProvider({ children }) {
   const [productData, setProductData] = useState([]);
-  const [cartData, setCartData] = useState();
+  const [cartData, setCartData] = useState({});
   const [usersData, setUsersData] = useState();
   const [signupData, setSignupData] = useState();
-  const [signinData, setSignData] = useState();
+  const [signinData, setSigninData] = useState();
   const [readyProd, setReadyProd] = useState({});
   const [page, setPage] = useState(1);
 
@@ -36,30 +50,66 @@ export default function AppContextProvider({ children }) {
     function checkId(c) {
       // console.log(c.id);
       return data.id === c.id;
-    } 
-    if(find===undefined) {
+    }
+    if (find === undefined) {
       postCartData(data);
-    }else{
-      patchCartData(find.qwt+1,data.id)
+    } else {
+      patchCartData(find.qwt + 1, data.id);
     }
   }
 
-  //handle signup
-
   //handle signin data
-
+  function handleSignin(data, onClose) {
+    console.log(data);
+    let find = usersData.find(checkId);
+    console.log(find);
+    function checkId(users) {
+      return data.email === users.email && data.password === users.password;
+    }
+    if (find !== undefined) {
+      setSigninData(find);
+      onClose();
+      return (
+        <Alert status='success'>
+          <AlertIcon />
+          loged in successfully
+        </Alert>
+      );
+    } else {
+      return (
+        <Alert status='error'>
+          <AlertIcon />
+          Wrong Credential
+        </Alert>
+      );
+    }
+  }
   //handle
   useEffect(() => {
     collectUsersData();
   }, [signupData]);
   useEffect(() => {
     collectCartData();
-  }, [cartData]);
+  }, []);
   useEffect(() => {
     takeData(page);
   }, [page]);
   return (
-    <AppContext.Provider value={{ productData, handlePage, page, handleCart }}>
+    <AppContext.Provider
+      value={{
+        productData,
+        handlePage,
+        page,
+        handleCart,
+        signinData,
+        handleSignin,
+        setSigninData,
+        postUsersData,
+        signupData,
+        setSignupData,
+        usersData,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );
