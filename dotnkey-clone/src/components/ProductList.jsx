@@ -15,7 +15,7 @@ import { FaStar, FaRegHeart } from 'react-icons/fa';
 
 import { AppContext } from '../context/AppContext';
 export default function ProductList() {
-  const { productData } = useContext(AppContext);
+  const { productData,handleCart } = useContext(AppContext);
   return (
     <Container mb='100px' maxW='90%'>
       <Heading my='20px' textAlign='center'>
@@ -73,6 +73,7 @@ export default function ProductList() {
                 backgroundColor='#7b7b7b'
                 color='#fff'
                 textTransform='uppercase'
+                onClick={()=>handleCart(el)}
               >
                 Add to cart
               </Button>

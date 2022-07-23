@@ -1,13 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Product from './pages/Product';
+import Signup from './pages/Signup';
+import Signin from './pages/Signin';
+import AllRoutes from './routes/AllRoutes';
 function App() {
   return (
     <div style={{position:"relative"}} className="App">
-     <Navbar />
-     <Product/>
-     <Footer/>
+      <Signup /> 
+      <Signin/>    
     </div>
   );
 }
