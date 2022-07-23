@@ -240,5 +240,32 @@
       "ratings": 2,
       "reviews": 160
     }
-  ]
+  ],
+
+  "users":[{"id":1, "username":"randhir", "password":"12345", "email":"randhir@gmail.com", "cartId":1},{"id":2, "username":"randhir", "password":"12345", "email":"randhir@gmail.com", "cartId":2},{"id":3, "username":"randhir", "password":"12345", "email":"randhir@gmail.com", "cartId":1}],
+  
+  "cart":[{
+    "id": 1,
+    "title": "Stringtough",
+    "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+    "img": "http://dummyimage.com/500x500.png/ff4444/ffffff",
+    "benefit": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+    "price": "727.35",
+    "netwet": 188,
+    "discount": 20,
+    "ratings": 1,
+    "reviews": 487
+  },
+  {
+    "id": 2,
+    "title": "Duobam",
+    "desc": "Vitamin C Moisturizer With Kakadu Plum & Vitamin E| Fades Pigmentation & Dark Spots| Oily & Dry Skin| Women and Men",
+    "img": "http://dummyimage.com/500x500.png/dddddd/000000",
+    "benefit": "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
+    "price": "143.74",
+    "netwet": 180,
+    "discount": 42,
+    "ratings": 1,
+    "reviews": 484
+  }]
 }
