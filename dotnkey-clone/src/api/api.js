@@ -28,6 +28,13 @@ export async function getCartData() {
   });
   return res.data;
 }
+
+export async function deleteCartData(id){
+  let res = await axios({
+    url: `http://localhost:8000/cart/${id}`,
+    method: 'DELETE',
+  });
+}
 export async function postUsersData(data) {
   axios({
     url: 'http://localhost:8000/users',

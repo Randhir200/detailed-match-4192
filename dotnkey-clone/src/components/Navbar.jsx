@@ -5,7 +5,6 @@ import {
   Flex,
   Container,
   Icon,
-  Button,
   Text,
   useDisclosure,
 } from '@chakra-ui/react';
@@ -69,7 +68,9 @@ export default function Navbar() {
         <Flex alignItems='center' gap='8px' fontSize='17px'>
           <Icon as={FaSearch} />
           <Icon as={FaMapMarkerAlt} />
-          <Icon as={FaCartArrowDown} />
+          <Link to='cart'>
+            <Icon mt='4px' fontSize='18px' as={FaCartArrowDown} />{' '}
+          </Link>
           {signinData ? (
             <Text
               onClick={() => {

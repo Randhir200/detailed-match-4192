@@ -7,6 +7,7 @@ import {
   patchCartData,
   postCartData,
   postUsersData,
+  deleteCartData
 } from '../api/api';
 import {
   Alert,
@@ -18,11 +19,12 @@ export const AppContext = createContext();
 
 export default function AppContextProvider({ children }) {
   const [productData, setProductData] = useState([]);
-  const [cartData, setCartData] = useState({});
+  const [cartData, setCartData] = useState([]);
   const [usersData, setUsersData] = useState();
   const [signupData, setSignupData] = useState();
   const [signinData, setSigninData] = useState();
-  const [readyProd, setReadyProd] = useState({});
+  const [addProd, setAddProd] = useState({});
+  const [deleteProd, setDeleteProd] = useState({});
   const [page, setPage] = useState(1);
 
   //  collect products data
@@ -34,6 +36,11 @@ export default function AppContextProvider({ children }) {
   async function collectCartData() {
     const res = await getCartData();
     setCartData(res);
+  }
+  //handle cart delete 
+  function handleCartDelete(el){
+    setDeleteProd(el)
+     deleteCartData(el.id);
   }
   //collect users data
   async function collectUsersData() {
@@ -48,10 +55,10 @@ export default function AppContextProvider({ children }) {
   function handleCart(data) {
     let find = cartData.find(checkId);
     function checkId(c) {
-      // console.log(c.id);
       return data.id === c.id;
     }
     if (find === undefined) {
+      setAddProd(data)
       postCartData(data);
     } else {
       patchCartData(find.qwt + 1, data.id);
@@ -90,7 +97,7 @@ export default function AppContextProvider({ children }) {
   }, [signupData]);
   useEffect(() => {
     collectCartData();
-  }, []);
+  }, [deleteProd, addProd]);
   useEffect(() => {
     takeData(page);
   }, [page]);
@@ -108,6 +115,8 @@ export default function AppContextProvider({ children }) {
         signupData,
         setSignupData,
         usersData,
+        cartData,
+        handleCartDelete
       }}
     >
       {children}
