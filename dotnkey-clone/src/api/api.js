@@ -1,8 +1,10 @@
 import axios from 'axios';
 
-export async function getData(page, limit) {
+// ratings_gte=4&ratings_lte=5&_sort=price&_order=asc
+
+export async function getData(filter='ratings_gte=4&ratings_lte=5',sort='_sort=price&_order=asc') {
   let res = await axios.get(
-    `http://localhost:8000/products?_page=${page}&_limit=${limit}`
+    `http://localhost:8000/products?${filter}&${sort}`
   );
   return res.data;
 }
@@ -18,7 +20,7 @@ export async function patchCartData(data, id) {
   axios({
     url: `http://localhost:8000/cart/${id}`,
     method: 'PATCH',
-    data: { qwt: data },
+    data,
   });
 }
 export async function getCartData() {

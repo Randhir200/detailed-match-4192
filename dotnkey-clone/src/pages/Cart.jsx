@@ -16,7 +16,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { AppContext } from '../context/AppContext';
 export default function Cart() {
-  const { cartData, handleCartDelete } = useContext(AppContext);
+        
+        const { cartData, handleCartDelete,dispatch, handleQWt} = useContext(AppContext);
   const total = cartData.reduce((prev, curr, ind, arr) => {
     return prev + curr.qwt;
   }, 0);
@@ -60,11 +61,11 @@ export default function Cart() {
                 <Text>{el.title}</Text>
                 <Text>₹ {el.price}</Text>
                 <Flex alignItems='center' gap='2'>
-                  <Button>+</Button>
+                  <Button onClick={()=>handleQWt({qwt:el.qwt+1},el.id)}>+</Button>
                   <Text>{el.qwt}</Text>
-                  <Button>-</Button>
+                  <Button onClick={()=>el.qwt===1?console.log('not allowed'):handleQWt({qwt:el.qwt-1},el.id)}>-</Button>
                 </Flex>
-                <Text>₹ {el.price * el.qwt}</Text>
+                <Text>₹ {(el.price * el.qwt).toFixed(2)}</Text>
                 <Icon
                   cursor='pointer'
                   onClick={() => {

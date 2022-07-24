@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState, useEffect, useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   getCartData,
@@ -7,7 +7,7 @@ import {
   patchCartData,
   postCartData,
   postUsersData,
-  deleteCartData
+  deleteCartData,
 } from '../api/api';
 import {
   Alert,
@@ -26,10 +26,11 @@ export default function AppContextProvider({ children }) {
   const [addProd, setAddProd] = useState({});
   const [deleteProd, setDeleteProd] = useState({});
   const [page, setPage] = useState(1);
-
+  const [sort, setSort] = useState('_sort=price&_order=asc');
+  const [filter, setFilter] = useState('ratings_gte=4&ratings_lte=5');
   //  collect products data
-  async function takeData(page, limit = 4) {
-    const res = await getData(page, limit);
+  async function takeData(filter,sort) {
+    const res = await getData(filter,sort);
     setProductData(res);
   }
   // collect cart data
@@ -37,10 +38,10 @@ export default function AppContextProvider({ children }) {
     const res = await getCartData();
     setCartData(res);
   }
-  //handle cart delete 
-  function handleCartDelete(el){
-    setDeleteProd(el)
-     deleteCartData(el.id);
+  //handle cart delete
+  function handleCartDelete(el) {
+    setDeleteProd(el);
+    deleteCartData(el.id);
   }
   //collect users data
   async function collectUsersData() {
@@ -58,11 +59,21 @@ export default function AppContextProvider({ children }) {
       return data.id === c.id;
     }
     if (find === undefined) {
-      setAddProd(data)
+      setAddProd(data);
       postCartData(data);
     } else {
-      patchCartData(find.qwt + 1, data.id);
+      patchCartData({ qwt: find.qwt + 1 }, data.id);
     }
+    collectCartData();
+    alert('Product added');
+  }
+  //init qwt
+
+  //handle qwt increment and decrement
+  function handleQWt(currQwt, id) {
+    console.log(currQwt);
+    patchCartData(currQwt, id);
+    collectCartData();
   }
 
   //handle signin data
@@ -92,6 +103,7 @@ export default function AppContextProvider({ children }) {
     }
   }
   //handle
+  // useEffect(() => {patchCartData(state)},[state])
   useEffect(() => {
     collectUsersData();
   }, [signupData]);
@@ -99,8 +111,8 @@ export default function AppContextProvider({ children }) {
     collectCartData();
   }, [deleteProd, addProd]);
   useEffect(() => {
-    takeData(page);
-  }, [page]);
+    takeData(filter, sort);
+  }, [sort, filter]);
   return (
     <AppContext.Provider
       value={{
@@ -116,7 +128,10 @@ export default function AppContextProvider({ children }) {
         setSignupData,
         usersData,
         cartData,
-        handleCartDelete
+        handleCartDelete,
+        handleQWt,
+        setFilter,
+        setSort,
       }}
     >
       {children}
