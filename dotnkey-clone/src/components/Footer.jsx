@@ -60,9 +60,6 @@ export default function Footer() {
           <Text mb='0.25em' color='#3c3c3c'>
             Terms of Service
           </Text>
-          <Text mb='0.25em' color='#3c3c3c'>
-            Refund Policy
-          </Text>
         </Box>
         <Box>
           <Heading fontSize='18px' fontWeight='500'>
