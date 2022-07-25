@@ -10,6 +10,7 @@ export default function FilternSorting() {
         <option value='ratings_gte=4&ratings_lte=5'>4 Stars</option>
         <option value='ratings_gte=3&ratings_lte=4'>3 Stars</option>
         <option value='ratings_gte=2&ratings_lte=3'>2 Stars</option>
+        <option value='ratings_gte=1&ratings_lte=2'>2 Stars</option>
       </Select>
 
       <Select onChange={(e)=>setSort(e.target.value)} textAlign='center' bg='#fff' borderColor='black.600'>
