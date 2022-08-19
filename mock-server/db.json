@@ -345,6 +345,12 @@
       "email": "aman@gmail.com",
       "password": "12345",
       "id": 14
+    },
+    {
+      "username": "randhir",
+      "email": "mail.randhirkr@gmail.com",
+      "password": "12345",
+      "id": 15
     }
   ],
   "cart": [
