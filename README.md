@@ -6,6 +6,8 @@ Construct week project
 ## Description
 #### This is a sample application that demonstrates an E-commerce website using ReactJs and JSON-server, The application loads products from JSON-server and displays them on the webpage. Users can select to display products in different categories such as different ratings as well ascending and descending order in price. Users can click on any product to add to the cart, and from the cart, users can customize their products as well, Authentication functionality also be added in this project.
 
+<img src="https://github.com/Randhir200/detailed-match-4192/blob/main/dotnkey-clone/public/dotnkey.PNG" alt="Home_Page" />
+
 #### Users can select items and add them to their shopping cart.
 
 #### Also added the responsivness so user can use the site in any device they have.
