@@ -18,6 +18,8 @@ Construct week project
 - Display data by using json-server.
 - Update and design to provide best User Experience.
 
+<img src="https://github.com/Randhir200/detailed-match-4192/blob/main/dotnkey-clone/public/signup.png" alt="Signup_Page" />
+
 ## Site to be Made
  [Click Here For Website Link](https://www.dotandkey.com/).
 
